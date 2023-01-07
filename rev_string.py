@@ -1,5 +1,3 @@
-
-
 string = input("Enter a string")
 rev = ""
 for i in string:

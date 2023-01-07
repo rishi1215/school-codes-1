@@ -1,4 +1,3 @@
-
 vowels = "aeiouAEIOU"
 string = input("Enter a string: ")
 count = 0

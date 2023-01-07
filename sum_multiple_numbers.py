@@ -4,7 +4,7 @@
 print("Write `DONE` when done inputting all numbers")
 l = []
 while True:
-    _ = (input(""))
+    _ = input("")
     if _ == "DONE":
         break
     l.append(int(_))
