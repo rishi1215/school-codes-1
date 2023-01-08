@@ -8,10 +8,12 @@ for _ in range(n):
     tup = tup + (haha,)
 
 print(
-"\
+    "\
 Maximum number: {}\n\
 Minimum number: {}\n\
 Sum: {}\n\
 Mean: {}\n\
-".format(max(tup), min(tup), sum(tup), sum(tup)/len(tup))
+".format(
+        max(tup), min(tup), sum(tup), sum(tup) / len(tup)
+    )
 )
