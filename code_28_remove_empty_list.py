@@ -1,5 +1,5 @@
 # lis is the list of lists
-
+lis = []
 index = 0
 while index != len(lis):
     if lis[index] == []:

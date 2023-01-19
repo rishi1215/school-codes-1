@@ -1,4 +1,3 @@
-
 num = int(input("Enter a number: "))
 num_copy = num
 check = num

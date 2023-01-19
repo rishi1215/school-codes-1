@@ -6,7 +6,7 @@
 lis = input("Enter numbers separated by space: ").split()
 
 for i in range(0, len(lis), 2):
-    if len(lis) <= i+1:
+    if len(lis) <= i + 1:
         break
-    lis[i], lis[i+1] = lis[i+1], lis[i] 
+    lis[i], lis[i + 1] = lis[i + 1], lis[i]
 print(lis)

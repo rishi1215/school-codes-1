@@ -1,4 +1,3 @@
-
 orig_num = int(input("Enter a number: "))
 num = orig_num
 rev = 0

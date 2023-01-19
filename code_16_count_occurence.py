@@ -1,4 +1,3 @@
-
 print("Write `DONE` when done inputting all elements")
 l = []
 while True:
