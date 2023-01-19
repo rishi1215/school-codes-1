@@ -1,5 +1,5 @@
-string = input("Enter a string")
+string = input("Enter a string: ")
 rev = ""
 for i in string:
     rev = i + rev
-print("Reversed string is:\n", rev)
+print("Reversed string is:\n", rev, sep = "")

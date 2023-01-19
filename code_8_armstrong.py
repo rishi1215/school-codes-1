@@ -11,6 +11,6 @@ while num_copy > 0:
     res += rem**order
     num_copy = num_copy // 10
 if res == check:
-    print(check, " is an Armstrong number")
+    print(check, "is an Armstrong number")
 else:
-    print(check, " is not an Armstrong number")
+    print(check, "is not an Armstrong number")

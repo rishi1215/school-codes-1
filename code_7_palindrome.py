@@ -6,4 +6,6 @@ while num > 0:
     rev = rev * 10 + rem
     num = num // 10
 if rev == orig_num:
-    print(orig_num, " is a Palindrome number.")
+    print(orig_num, "is a Palindrome number.")
+else:
+    print(orig_num, "is not a Palindrome number.")
