@@ -3,6 +3,6 @@
 # 2. Should be divisible by 400 (XX00)
 year = int(input("Enter year: "))
 if (year % 4 == 0 and year % 100 != 0) or (year % 400):
-    print(year, " is a leap year.")
+    print(year, "is a leap year.")
 else:
-    print(year, " is not a leap year.")
+    print(year, "is not a leap year.")

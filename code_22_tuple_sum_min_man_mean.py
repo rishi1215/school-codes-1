@@ -14,6 +14,6 @@ Minimum number: {}\n\
 Sum: {}\n\
 Mean: {}\n\
 ".format(
-        max(tup), min(tup), sum(tup), sum(tup) / len(tup)
+        max(tup), min(tup), sum(tup), round(sum(tup) / len(tup),2)
     )
 )

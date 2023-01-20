@@ -10,4 +10,4 @@ count = 0
 for _ in l:
     if check == _:
         count += 1
-print(f"Number of occurence of  {check} is {count}")
+print(f"Number of occurence of {check} is {count}")

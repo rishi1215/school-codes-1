@@ -4,4 +4,4 @@ res = 0
 for i in range(n + 1):
     res += x**i
 
-print("Sum of the series is: ", res)
+print("Sum of the series is:", res)
