@@ -1,17 +1,19 @@
 from pickle import load, dump
-def countrec():
+
+
+def countrec() -> None:
     count = 0
-    file = open("student.dat" , "rb")
+    file = open("student.dat", "rb")
     while True:
         try:
-            data = load(file)
+            data: tuple = load(file)
             if data[2] > 75:
                 count += 1
-                print("Name: {}, Admission number: {}, Percentage: {}".format(data[1], data[0], data[2]))
+                print("Name: {1}, Admission number: {0}, Percentage: {2}".format(*data))
         except:
             file.close()
             break
-    print("Number of students above 75%:", count)
-        
-    
+    print("\nNumber of students above 75%:", count)
+
+
 countrec()

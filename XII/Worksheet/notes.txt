@@ -1,0 +1,9 @@
+This is a sample file.
+The file contains many sentences.
+But needs only sentences which have only 5 words.
+This is another line
+this line is for test
+lets add more lines ok
+lines lines this line
+what line hi line which
+more sample data input yes

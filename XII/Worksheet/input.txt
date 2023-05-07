@@ -1,0 +1,3 @@
+Write a function FindAverage( ) in python to read a binary file ITEMS.DAT, find Average Price
+of the Items stored in the file and display the same. Assume that the file ITEMS.DAT is
+containing the items in the form of dictionary {“INo”:001, “IName”: “SoftDrink”, “Price”: 65}.
