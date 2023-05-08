@@ -1,4 +1,4 @@
-def dispS():
+def dispS() -> None:
     with open("poem.txt", "r") as f:
         lines = f.readlines()
     
@@ -7,3 +7,4 @@ def dispS():
             print(line.strip("\n"))
 
     
+dispS()

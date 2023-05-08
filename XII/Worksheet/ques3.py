@@ -8,3 +8,4 @@ def main():
                 print(word, end = " ")
 
     
+main()

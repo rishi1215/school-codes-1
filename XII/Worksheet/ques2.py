@@ -3,3 +3,5 @@ def main():
         content = f.read()
     count = content.split().count("Corona")
     print("Number of occurence of word corona:", count)
+
+main()
