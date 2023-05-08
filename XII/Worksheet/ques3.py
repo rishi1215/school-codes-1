@@ -1,9 +1,9 @@
-def main():
+def main() -> None:
     with open("poem.txt", "r") as f:
-        lines = file.readlines()
+        lines: list[str] = f.readlines()
     for line in lines:
         for word in line.split():
-            word = word.split("\n")
+            word = word.strip("\n")
             if len(word) == 2:
                 print(word, end = " ")
 
