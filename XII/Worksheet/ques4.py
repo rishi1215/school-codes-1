@@ -6,5 +6,4 @@ def dispS() -> None:
         if line.startswith("s") or line.startswith("S"):
             print(line.strip("\n"))
 
-    
 dispS()
